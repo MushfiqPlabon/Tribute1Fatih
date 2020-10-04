@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#main {
+  padding: 1rem;
+}
+
+.card {
+  box-shadow: 2px 4px 8px 1px red;
+  transition: 1s;
+  border-radius: 25px;
+  width: 80%;
+  margin: auto;
+  padding: auto;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+#title {
+  padding-top: 1fr;
+  padding-left: 1em;
+  text-align: center;
+}
+
+#img-div {
+  align-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
+#tribute-info {
+  padding: 1em;
+}
+
+img {
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: auto;
+}
+
+img:hover {
+  transform: scale(1.25);
+  transition: all 1s;
+}
+
+#tribute-link {
+  color: blue;
+}
+
+#tribute-link:hover {
+  color: red;
+}
